@@ -6,8 +6,7 @@ public class Client {
         String txt = myForm.MyTextField.getText();
         System.out.println(txt);
         //myController.address = myForm.MyTextField.getText();
-        Controller myController;
-        myController = new Controller("127.0.0.1", "Hello Server!");
+        Controller myController = new Controller("127.0.0.1", "Hello Server!");
 
 
     }
