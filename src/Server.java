@@ -2,6 +2,7 @@ import java.net.*;
 import java.io.*;
 
 public class Server {
+
     public static void main(String[] ar) {
         int port = 6666; // случайный порт (может быть любое число от 1025 до 65535)
         try {
